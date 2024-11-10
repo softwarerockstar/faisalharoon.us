@@ -1,0 +1,121 @@
+/*---  Desktop | Laptop ( 1200px and up) -----*/
+
+@media (min-width: 1200px) {
+
+	.container {
+		max-width: 1200px;
+	}
+}
+
+
+/*--- Medium devices (992px to 1199px) -----*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	html {
+		font-size: 51%;
+	}
+
+	.container {
+		max-width: 980px;
+	}
+
+}
+
+
+
+/* ------ Tablet (tablets, 991px and down) -----*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.container {
+		max-width: 680px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.user_content_box {
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+		gap: 4rem;
+	}
+
+	.user_information .user_title {
+		padding-bottom: 4rem;
+	}
+
+	.social_icon_box {
+		margin-top: 8rem;
+		border-top: .3rem solid #000000;
+		padding-top: 4rem;
+	}
+
+}
+
+
+
+
+/*----- sm devices (576px to 767px) -----*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+	html{
+		font-size: 55%;
+	}
+
+	.container {
+		max-width: 560px;
+	}
+
+}
+
+
+
+/*----- xs devices (575px and down) -----*/
+
+@media (max-width: 575px) {
+
+	html {
+		font-size: 2.43vw;
+	}
+
+	.hero_section {
+		padding: 5rem 0;
+	}
+
+	.user_content_box {
+		gap: 2rem;
+	}
+
+	.user_information .user_title {
+		font-size: 5.2rem;
+		padding-bottom: 2.6rem;
+		text-align: center;
+	}
+
+	.user_information .user_description {
+		font-size: 2.2rem;
+	}
+
+	.button_box {
+		gap: 1.4rem;
+		padding-top: 3rem;
+	}
+
+	.button {
+		font-size: 1.9rem;
+	}
+
+	.social_icon_box {
+		margin-top: 5rem;
+		padding-top: 3rem;
+	}
+
+	.social_icon_list {
+		gap: 4rem;
+	}
+
+
+}
